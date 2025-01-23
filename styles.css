@@ -1,0 +1,26 @@
+body {
+    width: 1289px;
+    height: auto;
+}
+
+.container {
+    max-width: 1239px;
+    max-height: auto;
+}
+
+header {
+    background-image: url(images/IMG_1148.jpg);
+    width: 1200px;
+    height: 1028px;
+
+}
+
+.navbar-brand {
+    width: 222px;
+    height: 172px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
