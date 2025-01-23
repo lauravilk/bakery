@@ -15,12 +15,22 @@ header {
 
 }
 
+
 .navbar-brand {
     width: 222px;
     height: 172px;
 }
 
-.navbar-nav {
+.otsikot {
     display: flex;
     justify-content: center;
 }
+
+.otsikko {
+    font-family: "tangerine" sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-display: center;
+}
+
