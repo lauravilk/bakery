@@ -15,19 +15,19 @@ header {
 
 }
 
-
 .navbar-brand {
     width: 222px;
     height: 172px;
 }
 
 .otsikot {
+    font-family: Inria Serif;
     display: flex;
     justify-content: center;
 }
 
 .otsikko {
-    font-family: "tangerine" sans-serif;
+    font-family: 'Tangerine', cursive;
     font-size: 60px;
     display: flex;
     justify-content: center;
