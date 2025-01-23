@@ -24,6 +24,8 @@ header {
     font-family: Inria Serif;
     display: flex;
     justify-content: center;
+    padding: 10px 15%; 
+    /* tällä paddingilla sain siirrettyä enemmän keskelle */
 }
 
 .otsikko {
