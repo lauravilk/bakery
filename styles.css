@@ -15,13 +15,19 @@ header {
 
 }
 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
 .navbar-brand {
     width: 222px;
     height: 172px;
+    display: flex;
+    jjustify-content: center;
 }
 
-.otsikot {
-    font-family: Inria Serif;
+.nav-link {
+    color: blue;
     display: flex;
     justify-content: center;
     padding: 10px 15%; 
@@ -32,7 +38,44 @@ header {
     font-family: 'Tangerine', cursive;
     font-size: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-display: center;
 }
+
+.meista {
+    width: 1280px;
+    height: 721px;
+    background-color: #e2ccb6;
+    display: flex;
+    jjustify-content: space-between;
+
+}
+
+.kuva {
+    width: 600px;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    mmargin: 20px;
+    mmargin-left: 30px;  
+}
+
+img {
+    width: 528px;
+    height: 516px;
+    height: auto;
+    clip-path: circle(50%);
+
+}
+
+.aboutustext {
+    display: flex;
+    flex: 1;
+    height: 516px;
+    justify-content: center;
+    align-items: center;
+    ppadding: 60px;
+}
+
 
