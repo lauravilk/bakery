@@ -24,6 +24,57 @@ header {
     font-family: Inria Serif;
     display: flex;
     justify-content: center;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+}
+
+
+
+footer {
+    background-color: #EAF0D7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info, .opening-hours {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+
+.contact-info strong, .opening-hours strong {
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+=======
+>>>>>>> Stashed changes
     padding: 10px 15%; 
     /* tällä paddingilla sain siirrettyä enemmän keskelle */
 }
@@ -36,3 +87,7 @@ header {
     font-display: center;
 }
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> b7dfe1d0346fa1efabc7fc283ab48aa60b2c6620
+>>>>>>> Stashed changes
